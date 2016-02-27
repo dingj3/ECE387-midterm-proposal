@@ -1,5 +1,8 @@
 //This file is the midterm proposal due to 2/26/2016, for the course ECE387, taught by professor Yamuna Rajasekhar.
 
-In the midterm project, I will use the audrino board to create a lock combined from the electronic lock and mechanical lock.
+In the midterm project, I will use the audrino board to create a electronic lock. In advance, I would combine the mechanical lock into this lock to increase the complexity if having time.
 
-By using the both lock technics, it will cover the disadvantage that electronic lock only depend on the program so that it is relatively easy to be delocked.
+In the electronic lock part, I will use the press buttons as the input and LEDs as the output. With these components, my system should be able to do the things: entering the pin, set a new pin if having getting the old one, reset the pin to default so that  if the users forget the pin, they can have the other choice to deal with the lock; a signal showing that the system is delocked, a signal showing that new pin is ready to compile, and a signal showing out of trying time. 
+
+In advance part, I will use the motor to recieve the output signal from audrino board and the motor turns a mechanical lock. after the lock, there will be a light sensor tp detect whether the lock is open, and return the signal to the audrino board to compile. In this part, my system should be able to do these things: the motor can correctly move the mechanical lock; the motor can create the new pin; the motor can set the mechanical pin to default; the motor will change the pin to random if out of trying time. 
+
